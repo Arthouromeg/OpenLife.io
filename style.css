@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'CubicFont';
+  src: url('assets/test.otf') format('opentype');
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0d0d0d;
+  color: #f0f0f0;
+  font-family: 'CubicFont', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.logo {
+  width: 500px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0.8rem 0;
+}
+
+nav a {
+  color: #00ffcc;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #888;
+}
